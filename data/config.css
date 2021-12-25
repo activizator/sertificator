@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --otstup: 400px;
+    --cvet: #20385a;
+    --shriftS: 35px;   /*  размер шрифта */
+    --shriftW: normal; /*  bold - жирный, normal - обычный */
+    --shriftF: 'Ubuntu', sans-serif;
+  }
