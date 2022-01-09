@@ -2,7 +2,9 @@ const puppeteer = require("puppeteer");
 const path = require("path");
 const list = require("../data/list.js");
 
-let myList = list.map(el => el.replace(/\s+/g, ' ').trim());
+// https://github.com/sindresorhus/capture-website/issues/42
+
+let myList = list.map((el) => el.replace(/\s+/g, " ").trim());
 myList = [...new Set(myList)]
   .sort((a, b) => a.localeCompare(b))
   .map((el) => {
